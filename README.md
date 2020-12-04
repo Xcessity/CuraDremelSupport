@@ -20,13 +20,11 @@ USE ON YOUR OWN RISK!!!!!!
 - The 3D model of the build platform is shown on build volume
 - Dremel materials can be selected from the material browser (PLA, ECO-ABS, Nylon, PETG)
 - The default material is set to the Dremel ECO-ABS when adding a new printer
+- Quality profiles for 0.05, 0.1, 0.2, 0.3 and 0.34 are now globaly available.
+- The temperatures are now taken from the material properties (default_material_print_temperature, material_bed_temperature)
 
 ## What's missing:
 - No network support for printer (you have to use USB stick for starting prints)
-
-I cannot merge the old Digilab slicer quality profiles (C:\Program Files\Dremel DigiLab 3D Slicer\resources\quality\Dremel3D45) into Cura 4.8.
-I assume that this has something to do with the "quality_type".
-
-I have tried setting the "version = 4" and "settings_version = 16"
+- The default_material_print_temperature in the 0.05 & 0.034 need to be specified for special materials
 
 
