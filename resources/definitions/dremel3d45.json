@@ -19,7 +19,7 @@
         "has_machine_materials": true,
         "has_materials": true,
         "has_variant_materials": true,
-        "preferred_material": "ECO-ABS_Dremel3D45",
+        "preferred_material": "dremel_ecoabs",
 		"has_machine_quality": true,
         "first_start_actions": [
 		"DiscoverUM3Action"

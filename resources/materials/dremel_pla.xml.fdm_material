@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<fdmmaterial version="1.3" xmlns="http://www.ultimaker.com/material">
+  <metadata>
+    <name>
+      <brand>DREMEL</brand>
+      <material>PLA</material>
+      <color>Generic</color>
+      <label>PLA</label>
+    </name>
+    <GUID>a3eb7626-4495-47cc-b242-7eec5172bed5</GUID>
+    <compatible>True</compatible>
+    <description>Fast, safe and reliable printing material from Dremel. PLA is ideal for the fast and reliable printing of parts and prototypes with a great surface quality.</description>
+    <adhesion_info>Print on bare glass. Use tape for cold build plates.</adhesion_info>
+    <color_code>#0033a0</color_code>
+    <version>1</version>
+    <setting_version>2</setting_version>
+  </metadata>
+  <properties>
+    <diameter>1.75</diameter>
+    <density>1.24</density>
+  </properties>
+  <settings>
+    <setting key="print temperature">230</setting>
+    <setting key="print cooling">100.0</setting>
+    <setting key="retraction speed">60.0</setting>
+    <setting key="heated bed temperature">60</setting>
+    <setting key="standby temperature">210</setting>
+    <machine>
+      <machine_identifier manufacturer="DREMEL" product="Dremel 3D20" />
+    </machine>
+    <machine>
+      <machine_identifier manufacturer="DREMEL" product="Dremel 3D45" />
+    </machine>
+    <machine>
+      <machine_identifier manufacturer="DREMEL" product="Dremel 3D40" />
+    </machine>
+  </settings>
+</fdmmaterial>
