@@ -1,0 +1,77 @@
+{
+    "id": "Dremel3D45",
+    "version": 2,
+    "name": "Dremel 3D45",
+    "inherits": "fdmprinter",
+    "metadata": {
+        "visible": true,
+        "author": "Dremel",
+        "manufacturer": "Dremel",
+        "category": "Dremel DigiLab",
+        "file_formats": "text/x-gcode",
+        "icon": "icon_ultimaker2",
+        "supports_usb_connection": false,
+        "platform": "dremel3d45_platform.stl",
+        "machine_extruder_trains":
+        {
+            "0": "dremel3d45_extruder"
+        },
+        "has_machine_materials": true,
+        "has_materials": true,
+        "has_variant_materials": true,
+        "preferred_material": "ECO-ABS_Dremel3D45",
+		"has_machine_quality": true,
+        "first_start_actions": [
+		"DiscoverUM3Action"
+		],
+        "supported_actions": [
+        "DiscoverUM3Action"
+        ]
+    },
+
+    "overrides": {
+        "machine_name": { "default_value": "Dremel3D45" },
+        "machine_nozzle_size": { "default_value": 0.4 },
+        "speed_travel": { "default_value": 120 },
+        "prime_tower_size": { "default_value": 8.660254037844387 },
+        "infill_sparse_density": { "default_value": 20 },
+        "speed_wall_x": { "default_value": 45 },
+        "speed_wall_0": { "default_value": 40 },
+        "speed_topbottom": { "default_value": 35 },
+        "layer_height": { "default_value": 0.2 },
+        "speed_print": { "default_value": 50 },
+        "speed_infill": { "default_value": 60 },
+        "machine_extruder_count": { "default_value": 1 },
+        "machine_heated_bed": { "default_value": true },
+        "machine_center_is_zero": { "default_value": true },
+        "machine_height": { "default_value": 170 },
+        "machine_gcode_flavor": { "default_value": "Marlin" },
+        "machine_depth": { "default_value": 155 },
+        "machine_width": { "default_value": 255 },
+        "material_diameter": { "default_value": 1.75 },
+        "retraction_speed": {"default_value":100},
+        "cool_fan_speed_min": {"default_value": 20},
+        "cool_fan_speed_max": {"default_value": 70},
+        "adhesion_type": { "default_value": "none" },
+        "machine_head_with_fans_polygon": {
+            "default_value": [
+                [-15, -25],
+                [-15, 35],
+                [40, 35],
+                [40, -25]
+            ]
+        },
+        "gantry_height": {
+            "default_value": 30
+        },
+
+        "machine_start_gcode": {
+         "default_value": "G28\nG1 Z50.00 F400\nG92 E0\nG1 F200 E3\nG92 E0\nM132 X Y Z A\nM907 X100 Y100 Z50 A100"
+		 },
+
+        "machine_end_gcode": {
+            "default_value": "M104 S0\nM140 S0\nG92 E1\nG1 E-1 F300\nG162 Z F600\nG162 X Y F2000\nM84\n"
+        }
+    }
+}
+
