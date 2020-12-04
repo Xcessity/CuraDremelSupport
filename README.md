@@ -5,6 +5,11 @@ Cura target version: 4.8.0
 
 Printers: Dremel 3D45
 
+## DISCLAIMER
+This configuration set is work in progress! Wrong settings can damage your printer!
+
+USE ON YOUR OWN RISK!!!!!!
+
 ## Installation
 1. Download and install Cura 4.8 from the official ultimaker website https://ultimaker.com/software/ultimaker-cura
 2. Copy the resource folder in the installation directory of Cura 4.8 (C:\Program Files\Ultimaker Cura 4.8.0\)
