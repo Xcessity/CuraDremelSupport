@@ -16,6 +16,9 @@ Printers: Dremel 3D45
 - The default material is set to the Dremel ECO-ABS when adding a new printer
 
 ## What's missing:
-- The quality profiles for the specific material are missing.
+I cannot merge the old Digilab slicer quality profiles (C:\Program Files\Dremel DigiLab 3D Slicer\resources\quality\Dremel3D45) into Cura 4.8.
+I assume that this has something to do with the "quality_type".
+
+I have tried setting the "version = 4" and "settings_version = 16"
 
 
