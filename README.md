@@ -12,7 +12,7 @@ USE ON YOUR OWN RISK!!!!!!
 
 ## Installation
 1. Download and install Cura 4.8 from the official ultimaker website https://ultimaker.com/software/ultimaker-cura
-2. Copy the resource folder in the installation directory of Cura 4.8 (C:\Program Files\Ultimaker Cura 4.8.0\)
+2. Copy the resource folder from this project into the installation directory of Cura 4.8 (C:\Program Files\Ultimaker Cura 4.8.0\)
 3. In the printer LCD menu choose Tools->Settings->Adv.Mode->Prioritize GCode Settings = ON
 
 ## What's working so far:
@@ -26,5 +26,6 @@ USE ON YOUR OWN RISK!!!!!!
 ## What's missing:
 - No network support for printer (you have to use USB stick for starting prints)
 - The default_material_print_temperature in the 0.05 & 0.034 need to be specified for special materials
-
+- The material profiles are not very well tuned for different materials
+- Add more profiles for different 3rd party filaments
 
