@@ -24,6 +24,7 @@ USE ON YOUR OWN RISK!!!!!!
 - The default_material_print_temperature in the 0.05 & 0.034 are specified for the material specific temps
 
 ## What's missing:
-- No network support for printer (you have to use USB stick for starting prints)
+- No network support for starting a print (use USB stick)
+- No camera live streaming (you can watch your prints in any browser http://[printerIP]:10123/?action=stream)
 - The material profiles supplied by dremel for PETG and Nylon are not very well tuned
 - Add more profiles for different 3rd party filaments
