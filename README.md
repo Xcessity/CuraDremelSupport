@@ -31,5 +31,7 @@ USE ON YOUR OWN RISK!!!!!!
 
 ## Links & Resources
 3D20 Plugin for Cura https://github.com/timmehtimmeh/Cura-Dremel-3D20-Plugin
+
 Exploring the Dremel 3D45 network capabilities: https://github.com/genepool99/Dremel3D45Hacking
+
 Also a project for the network functions of 3D45: https://github.com/janitz/3d45
