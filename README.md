@@ -28,3 +28,8 @@ USE ON YOUR OWN RISK!!!!!!
 - No camera live streaming (you can watch your prints in any browser http://[printerIP]:10123/?action=stream)
 - The material profiles supplied by dremel for PETG and Nylon are not very well tuned
 - Add more profiles for different 3rd party filaments
+
+## Links & Resources
+3D20 Plugin for Cura https://github.com/timmehtimmeh/Cura-Dremel-3D20-Plugin
+Exploring the Dremel 3D45 network capabilities: https://github.com/genepool99/Dremel3D45Hacking
+Also a project for the network functions of 3D45: https://github.com/janitz/3d45
