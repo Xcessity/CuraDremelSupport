@@ -28,6 +28,7 @@ USE ON YOUR OWN RISK!!!!!!
 - No camera live streaming (you can watch your prints in any browser http://[printerIP]:10123/?action=stream)
 - The material profiles supplied by dremel for PETG and Nylon are not very well tuned
 - Add more profiles for different 3rd party filaments
+- In Cura 4.8 Extensions->Post Processing->Modify G-Code->ChangeAtZ activating "Output to Display" stops the print!
 
 ## Links & Resources
 3D20 Plugin for Cura https://github.com/timmehtimmeh/Cura-Dremel-3D20-Plugin
